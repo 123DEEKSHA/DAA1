@@ -1,5 +1,5 @@
 class Job:
-     def __init__(self, taskId, deadline, profit):
+    def __init__(self, taskId, deadline, profit):
         self.taskId = taskId
         self.deadline = deadline
         self.profit = profit
