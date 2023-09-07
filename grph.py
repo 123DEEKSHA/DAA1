@@ -1,6 +1,4 @@
 from collections import defaultdict
-
-
 class Graph:
     def __init__(self, subjects):
         self.subjects = subjects
@@ -31,8 +29,6 @@ class Graph:
     def get_minimum_time_slots(self):
         color_map = self.graph_coloring()
         return max(color_map.values())
-
-
 subjects = [i for i in input("Enter the subjects: ").split()]
 
 students = {}
